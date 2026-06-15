@@ -1,0 +1,32 @@
+﻿body {
+  background: #eef3fb;
+  color: #24324a;
+  min-height: 100vh;
+}
+
+.upload-box {
+  border: 1px solid #e3e8ee;
+}
+
+.card-hover {
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+}
+
+.card-title {
+  font-size: 2rem;
+}
+
+canvas {
+  max-width: 100%;
+}
+
+@media (max-width: 575px) {
+  .upload-box {
+    align-items: stretch;
+  }
+}
